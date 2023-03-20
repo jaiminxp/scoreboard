@@ -1,5 +1,7 @@
 # Scoreboard 🏀
 
+<img src="screenshot.png"/>
+
 Who's winning?🤔 
 Note your favorite teams' scores down in this easy to use scoreboard featuring bright playful colors, just like a match on a nice sunny day!☀️
 
