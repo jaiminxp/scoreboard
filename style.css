@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: "Luckiest Guy";
+    height: 100vh;
+}
+
+h3 {
+    margin: 0;
+    font-size: 2.5rem;
+    text-align: center;
+    text-shadow: 1px 1px 2px #3822CD;
+}
+
+.container {
+    color: #EEEEEE;
+    display: flex;
+    justify-content: space-around;
+    max-width: 565px;
+    padding: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8rem;
+    background: linear-gradient(121.7deg, rgb(41, 116, 250) 22.9%, rgb(67, 212, 255) 69%);
+}
+
+.team-container {
+    flex: 1;
+    max-width: 10rem;;
+    width: 100%;
+}
+
+.score-container {
+    margin-top: 1.125em;
+    background: black;
+    border-radius: 5px;
+    padding: 4rem 0;
+}
+
+.score {
+    color: #f44336;
+    font-size: 5.625rem;
+    text-align: center;
+    display: block;
+    line-height: 0;
+}
+
+.score-btn-container {
+    margin-top: 1.44em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.score-btn-container > button {
+    background: white;
+    color: #3822CD;
+    border: 3px solid #3822CD;
+    border-radius: 5px;
+    font-size: 1.125rem;
+    font-weight: bold;
+    padding: 0.55em;
+}
+
+.score-winning {
+    color: #36F493;
+}
+
+@media screen and (max-width: 600px){
+    .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+}
+
