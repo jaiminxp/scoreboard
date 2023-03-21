@@ -15,7 +15,8 @@ homeScoreBtns.forEach(btn => {
         homeScoreEl.textContent = homeScore;
 
         if (homeScore > guestScore) {
-            homeScoreEl.classList.add('score-winning');   
+          homeScoreEl.classList.add('score-winning');
+          guestScoreEl.classList.remove('score-winning');
         } else if (homeScore === guestScore) {
             homeScoreEl.classList.remove('score-winning');   
             guestScoreEl.classList.remove('score-winning');   
